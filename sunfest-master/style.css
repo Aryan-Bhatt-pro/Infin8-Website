@@ -768,13 +768,19 @@ body {
 
 .home-page-last-news-wrap {
     margin-top: 110px;
+    /* transition: box-shadow 0.5s ease-in-out; */
+}
+
+.home-page-last-news-wrap .sponsor-wrapper:hover {
+    box-shadow: 7px 7px 15px #888888;
+    transition: 0.5s ease-in-out; 
 }
 
 .home-page-last-news-wrap .box-link-date {
     position: absolute;
     top: 30px;
     left: 0;
-    padding: 10px 25px;
+    /* padding: 10px 25px; */
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     font-size: 20px;
     font-weight: 500;
@@ -786,14 +792,16 @@ body {
 }
 
 .home-page-last-news-wrap .content-wrapper {
-    background: hsl(0, 0%, 100%);
-    box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1);
+    background: #F6E7D8;
+    /* box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1); */
 }
 
 .home-page-last-news-wrap .featured-image {
-    margin: 0;
-    padding: 0;
-    box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1);
+    /* margin: 0;
+    padding: 0; */
+    object-fit: cover;
+    
+    /* box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1); */
 }
 
 .home-page-last-news-wrap .featured-image img {
@@ -801,7 +809,18 @@ body {
 }
 
 .home-page-last-news-wrap .entry-content {
-    padding: 35px 45px;
+    /* padding: 10px 10px; */
+    
+}
+
+
+.home-page-last-news-wrap .content-wrapper:hover {
+    /* box-shadow: 10px 40px 60px 27px rgba(0, 0.8, 0.8, 0.8);  */
+    
+}
+
+.home-page-last-news-wrap .entry-content .entry-header  {
+    text-align: center;
 }
 
 .home-page-last-news-wrap .entry-content .entry-header h2 {
@@ -815,7 +834,7 @@ body {
 }
 
 .home-page-last-news-wrap .entry-content .entry-meta {
-    margin-top: 6px;
+    /* margin-top: 6px; */
     font-size: 12px;
     color: hsl(0, 0%, 9%);
     font-weight: 500;
@@ -826,14 +845,14 @@ body {
 }
 
 .home-page-last-news-wrap .entry-content .entry-description {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     font-size: 15px;
     color: hsl(0, 0%, 60%);
     line-height: 2;
 }
 
 .home-page-last-news-wrap .entry-content .entry-meta span {
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
 
@@ -844,7 +863,7 @@ body {
 .site-footer {
     position: relative;
     padding: 40px 0 30px;
-    background: url(images/footer-cover.jpg) no-repeat;
+    background: url(https://studentkit.zense.co.in/images/events/infin8_2.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -921,14 +940,45 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+.footer-content-wrapper .entry-mail .sac-mail {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+/* .footer-content-wrapper .sac-mail {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+} */
+
+/* .footer-content-wrapper .sac-mail {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+} */
 .footer-content-wrapper .entry-mail a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
 
+.footer-content-wrapper .entry-mail .sac-mail {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+/* .footer-content-wrapper .sac-mail a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+} */
+
+
 .footer-content-wrapper .copyright-info {
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 15px;
     color: hsl(0, 0%, 100%);
 }
 
@@ -948,7 +998,7 @@ body {
 
 .footer-content-wrapper .footer-social ul a {
     padding: 5px 16px;
-    font-size: 12px;
+    font-size: 30px;
     color: hsl(0, 0%, 100%);
 }
 
