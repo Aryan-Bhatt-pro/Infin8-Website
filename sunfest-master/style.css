@@ -2,6 +2,10 @@
 # Global classes
 ------------------------------------------------------------*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 .flex {
     display: flex;
 }
@@ -281,6 +285,9 @@ body {
     .hero-content .entry-header h2 {
         font-size: 172px;
     }
+    .hero-content img {
+        transform: translate(-10%);
+    }
     .hero-content .entry-header .entry-meta-date {
         top: 60px;
     }
@@ -546,7 +553,7 @@ body {
     margin-bottom: 0px;
 }
 
-.the-complete-lineup-artists .artist-single:hover{
+.the-complete-lineup-artists .artist-single:hover {
     box-shadow: 15px 18px 100px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
 }
