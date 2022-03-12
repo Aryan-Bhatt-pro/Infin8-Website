@@ -691,11 +691,13 @@ body {
     display: block;
     margin: 0;
     position: relative;
+    object-fit: cover;
 }
 
 .next-event-slider .featured-image img {
-    display: block;
+    display: fit;
     width: 100%;
+    /* object-fit: cover; */
 }
 
 .next-event-slider .entry-content {
@@ -790,8 +792,8 @@ body {
 }
 
 .home-page-last-news-wrap .sponsor-wrapper:hover {
-    box-shadow: 7px 7px 15px #888888;
-    transition: 0.5s ease-in-out; 
+    box-shadow: 2px 2px 25px #888888;
+    transition: 0.3s ease-in-out; 
 }
 
 .home-page-last-news-wrap .box-link-date {
