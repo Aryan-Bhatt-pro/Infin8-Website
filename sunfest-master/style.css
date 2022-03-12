@@ -272,6 +272,9 @@ body {
     .hero-content .entry-header h2 {
         font-size: 172px;
     }
+    img {
+        transform: translate(-10%);
+    }
     .hero-content .entry-header .entry-meta-date {
         top: 60px;
     }
@@ -284,10 +287,12 @@ body {
 
 .countdown {
     margin-top: 40px;
+    width: 100%;
+    gap: 4rem;
 }
 
 .countdown-holder {
-    min-width: 150px;
+    min-width: 50px;
     margin-bottom: 30px;
 }
 
@@ -296,7 +301,8 @@ body {
 .countdown-holder .dmin,
 .countdown-holder .dsec {
     display: block;
-    font-size: 72px;
+    text-align: center;
+    font-size: 7vw;
     font-weight: 600;
     line-height: 1;
     color: hsl(0, 0%, 100%);
@@ -332,6 +338,12 @@ body {
 .hero-content .entry-footer .current {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     color: hsl(0, 0%, 0%);
+}
+
+.hero-content img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
