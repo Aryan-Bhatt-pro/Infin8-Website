@@ -223,9 +223,9 @@ body {
     .site-navigation ul li {
         padding: 0;
     }
-    .site-navigation ul li:nth-last-of-type(1) {
+    /* .site-navigation ul li:nth-last-of-type(1) {
         padding-left: 60px;
-    }
+    } */
     .site-navigation ul li a {
         color: #fff;
     }
@@ -240,7 +240,6 @@ body {
     padding: 220px 0;
     background: url("images/cover.jpg") no-repeat;
     background-size: cover;
-    margin: 0 auto;
 }
 
 .hero-content .entry-header {
@@ -269,14 +268,6 @@ body {
     text-align: center;
 }
 
-.hero-content img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    transform: translate(-10%, 0);
-}
-
 @media screen and (min-width: 992px) {
     .hero-content .entry-header h2 {
         font-size: 172px;
@@ -288,13 +279,11 @@ body {
 
 
 /*------------------------------------------------------------
-## countdown
-------------------------------------------------------------*/
+  ## countdown
+  ------------------------------------------------------------*/
 
 .countdown {
     margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .countdown-holder {
@@ -322,8 +311,8 @@ body {
 
 
 /*------------------------------------------------------------
-## hero-content entry-footer
-------------------------------------------------------------*/
+  ## hero-content entry-footer
+  ------------------------------------------------------------*/
 
 .hero-content .entry-footer {
     margin-top: 125px;
@@ -347,8 +336,8 @@ body {
 
 
 /*------------------------------------------------------------
-# The Lineup Artists - Headliners
-------------------------------------------------------------*/
+  # The Lineup Artists - Headliners
+  ------------------------------------------------------------*/
 
 .content-section {
     min-height: 4640px;
