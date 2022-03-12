@@ -223,9 +223,9 @@ body {
     .site-navigation ul li {
         padding: 0;
     }
-    /* .site-navigation ul li:nth-last-of-type(1) {
+    .site-navigation ul li:nth-last-of-type(1) {
         padding-left: 60px;
-    } */
+    }
     .site-navigation ul li a {
         color: #fff;
     }
@@ -237,9 +237,10 @@ body {
 -----------------------------------------------------------*/
 
 .hero-content {
-    padding: 150px 0;
+    padding: 220px 0;
     background: url("images/cover.jpg") no-repeat;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .hero-content .entry-header {
@@ -268,12 +269,17 @@ body {
     text-align: center;
 }
 
+.hero-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    transform: translate(-10%, 0);
+}
+
 @media screen and (min-width: 992px) {
     .hero-content .entry-header h2 {
         font-size: 172px;
-    }
-    img {
-        transform: translate(-10%);
     }
     .hero-content .entry-header .entry-meta-date {
         top: 60px;
@@ -282,17 +288,17 @@ body {
 
 
 /*------------------------------------------------------------
-  ## countdown
-  ------------------------------------------------------------*/
+## countdown
+------------------------------------------------------------*/
 
 .countdown {
     margin-top: 40px;
-    width: 100%;
-    gap: 4rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .countdown-holder {
-    min-width: 50px;
+    min-width: 150px;
     margin-bottom: 30px;
 }
 
@@ -301,8 +307,7 @@ body {
 .countdown-holder .dmin,
 .countdown-holder .dsec {
     display: block;
-    text-align: center;
-    font-size: 7vw;
+    font-size: 72px;
     font-weight: 600;
     line-height: 1;
     color: hsl(0, 0%, 100%);
@@ -317,8 +322,8 @@ body {
 
 
 /*------------------------------------------------------------
-  ## hero-content entry-footer
-  ------------------------------------------------------------*/
+## hero-content entry-footer
+------------------------------------------------------------*/
 
 .hero-content .entry-footer {
     margin-top: 125px;
@@ -340,16 +345,10 @@ body {
     color: hsl(0, 0%, 0%);
 }
 
-.hero-content img {
-    display: block;
-    width: 70%;
-    margin: 0 auto;
-}
-
 
 /*------------------------------------------------------------
-  # The Lineup Artists - Headliners
-  ------------------------------------------------------------*/
+# The Lineup Artists - Headliners
+------------------------------------------------------------*/
 
 .content-section {
     min-height: 4640px;
