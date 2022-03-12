@@ -1522,12 +1522,14 @@ body {
 }
 
 .blog-page .blog-list-page .blog-content .featured-image {
-    margin: 0;
+    width: 100%;
+    align-items: center;
+    /* margin: 10px; */
     padding: 0;
 }
 
 .blog-page .blog-list-page .blog-content .featured-image img {
-    max-width: 100%;
+    width: 100%;
     position: relative;
 }
 
@@ -1559,7 +1561,7 @@ body {
 
 .blog-page .blog-list-page .blog-content .entry-content .entry-meta {
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 18px;
     color: #050505;
 }
 
@@ -1573,7 +1575,7 @@ body {
 
 .blog-page .blog-list-page .blog-content .entry-content .entry-description {
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 24px;
     color: #989898;
     line-height: 2;
 }
