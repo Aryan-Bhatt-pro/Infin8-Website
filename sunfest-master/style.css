@@ -2,6 +2,10 @@
 # Global classes
 ------------------------------------------------------------*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 .flex {
     display: flex;
 }
@@ -281,6 +285,9 @@ body {
     .hero-content .entry-header h2 {
         font-size: 172px;
     }
+    .hero-content img {
+        transform: translate(-10%);
+    }
     .hero-content .entry-header .entry-meta-date {
         top: 60px;
     }
@@ -422,6 +429,7 @@ body {
 
 .lineup-artists .lineup-artists-wrap {
     margin-top: 80px;
+    transition: 0.5s ease;
 }
 
 .lineup-artists .lineup-artists-wrap .lineup-artists-description {
@@ -456,6 +464,11 @@ body {
     top: -24px;
     right: 50px;
     z-index: 999;
+}
+
+.lineup-artists-wrap:hover {
+    transform: scale(1.05);
+    box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (min-width: 768px) {
@@ -538,6 +551,11 @@ body {
 
 .the-complete-lineup-artists .artist-single {
     margin-bottom: 0px;
+}
+
+.the-complete-lineup-artists .artist-single:hover {
+    box-shadow: 15px 18px 100px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
 }
 
 .the-complete-lineup-artists .artist-single:nth-of-type(even) {
@@ -820,6 +838,10 @@ body {
 }
 
 .home-page-last-news-wrap .entry-content .entry-header  {
+    text-align: center;
+}
+
+.home-page-last-news-wrap .entry-content .entry-header {
     text-align: center;
 }
 
@@ -1583,12 +1605,14 @@ body {
 }
 
 .blog-page .blog-list-page .blog-content .featured-image {
-    margin: 0;
+    width: 100%;
+    align-items: center;
+    /* margin: 10px; */
     padding: 0;
 }
 
 .blog-page .blog-list-page .blog-content .featured-image img {
-    max-width: 100%;
+    width: 100%;
     position: relative;
 }
 
@@ -1620,7 +1644,7 @@ body {
 
 .blog-page .blog-list-page .blog-content .entry-content .entry-meta {
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 18px;
     color: #050505;
 }
 
@@ -1634,7 +1658,7 @@ body {
 
 .blog-page .blog-list-page .blog-content .entry-content .entry-description {
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 24px;
     color: #989898;
     line-height: 2;
 }
