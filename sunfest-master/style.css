@@ -2,6 +2,10 @@
 # Global classes
 ------------------------------------------------------------*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 .flex {
     display: flex;
 }
@@ -272,7 +276,7 @@ body {
     .hero-content .entry-header h2 {
         font-size: 172px;
     }
-    img {
+    .hero-content {
         transform: translate(-10%);
     }
     .hero-content .entry-header .entry-meta-date {
