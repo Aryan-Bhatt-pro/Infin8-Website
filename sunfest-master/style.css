@@ -227,9 +227,9 @@ body {
     .site-navigation ul li {
         padding: 0;
     }
-    .site-navigation ul li:nth-last-of-type(1) {
+    /* .site-navigation ul li:nth-last-of-type(1) {
         padding-left: 60px;
-    }
+    } */
     .site-navigation ul li a {
         color: #fff;
     }
@@ -241,10 +241,9 @@ body {
 -----------------------------------------------------------*/
 
 .hero-content {
-    padding: 220px 0;
+    padding: 150px 0;
     background: url("images/cover.jpg") no-repeat;
     background-size: cover;
-    margin: 0 auto;
 }
 
 .hero-content .entry-header {
@@ -273,14 +272,6 @@ body {
     text-align: center;
 }
 
-.hero-content img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    transform: translate(-10%, 0);
-}
-
 @media screen and (min-width: 992px) {
     .hero-content .entry-header h2 {
         font-size: 172px;
@@ -295,17 +286,17 @@ body {
 
 
 /*------------------------------------------------------------
-## countdown
-------------------------------------------------------------*/
+  ## countdown
+  ------------------------------------------------------------*/
 
 .countdown {
     margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    gap: 4rem;
 }
 
 .countdown-holder {
-    min-width: 150px;
+    min-width: 50px;
     margin-bottom: 30px;
 }
 
@@ -314,7 +305,8 @@ body {
 .countdown-holder .dmin,
 .countdown-holder .dsec {
     display: block;
-    font-size: 72px;
+    text-align: center;
+    font-size: 7vw;
     font-weight: 600;
     line-height: 1;
     color: hsl(0, 0%, 100%);
@@ -330,8 +322,8 @@ body {
 
 
 /*------------------------------------------------------------
-## hero-content entry-footer
-------------------------------------------------------------*/
+  ## hero-content entry-footer
+  ------------------------------------------------------------*/
 
 .hero-content .entry-footer {
     margin-top: 125px;
@@ -353,10 +345,16 @@ body {
     color: hsl(0, 0%, 0%);
 }
 
+.hero-content img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
 
 /*------------------------------------------------------------
-# The Lineup Artists - Headliners
-------------------------------------------------------------*/
+  # The Lineup Artists - Headliners
+  ------------------------------------------------------------*/
 
 .content-section {
     min-height: 4640px;
@@ -468,8 +466,9 @@ body {
 }
 
 .lineup-artists-wrap:hover {
-    transform: scale(1.05);
-    box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
+    transform: scale(1.07);
+    box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -551,12 +550,14 @@ body {
 }
 
 .the-complete-lineup-artists .artist-single {
-    margin-bottom: 0px;
+    margin-bottom: 15px;
+    transition: 0.5s ease;
 }
 
 .the-complete-lineup-artists .artist-single:hover {
-    box-shadow: 15px 18px 100px rgba(0, 0, 0, 0.3);
-    transition: 0.5s;
+    transform: scale(1.03);
+    border-radius: 25px;
+    box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.3);
 }
 
 .the-complete-lineup-artists .artist-single:nth-of-type(even) {
@@ -590,6 +591,13 @@ body {
     margin-top: 38px;
     font-size: 24px;
     font-weight: 600;
+    color: hsl(0, 0%, 2%);
+    text-align: center;
+}
+
+.the-complete-lineup-artists .artist-single h3 {
+    margin-top: 8px;
+    font-size: 16px;
     color: hsl(0, 0%, 2%);
     text-align: center;
 }
@@ -794,7 +802,7 @@ body {
 
 .home-page-last-news-wrap .sponsor-wrapper:hover {
     box-shadow: 2px 2px 25px #888888;
-    transition: 0.3s ease-in-out; 
+    transition: 0.3s ease-in-out;
 }
 
 .home-page-last-news-wrap .box-link-date {
@@ -821,7 +829,6 @@ body {
     /* margin: 0;
     padding: 0; */
     object-fit: cover;
-    
     /* box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1); */
 }
 
@@ -831,16 +838,13 @@ body {
 
 .home-page-last-news-wrap .entry-content {
     /* padding: 10px 10px; */
-    
 }
-
 
 .home-page-last-news-wrap .content-wrapper:hover {
     /* box-shadow: 10px 40px 60px 27px rgba(0, 0.8, 0.8, 0.8);  */
-    
 }
 
-.home-page-last-news-wrap .entry-content .entry-header  {
+.home-page-last-news-wrap .entry-content .entry-header {
     text-align: center;
 }
 
@@ -961,16 +965,10 @@ body {
 .footer-content-wrapper .entry-mail {
     margin-top: 16px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     color: hsl(0, 0%, 100%);
 }
 
-.footer-content-wrapper .entry-mail .sac-mail {
-    margin-top: 16px;
-    font-size: 16px;
-    font-weight: 700;
-    color: hsl(0, 0%, 100%);
-}
 
 /* .footer-content-wrapper .sac-mail {
     margin-top: 10px;
@@ -979,27 +977,31 @@ body {
     color: hsl(0, 0%, 100%);
 } */
 
+
 /* .footer-content-wrapper .sac-mail {
     margin-top: 10px;
     font-size: 10px;
     font-weight: 700;
     color: hsl(0, 0%, 100%);
 } */
+
 .footer-content-wrapper .entry-mail a {
+    margin-right: 16px;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
 
-.footer-content-wrapper .entry-mail .sac-mail {
+.footer-content-wrapper .entry-mail p {
+    margin-right: 16px;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
+
 
 /* .footer-content-wrapper .sac-mail a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 } */
-
 
 .footer-content-wrapper .copyright-info {
     margin-top: 20px;
