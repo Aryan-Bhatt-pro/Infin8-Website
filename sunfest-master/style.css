@@ -359,8 +359,8 @@ body {
 .content-section {
     min-height: 4640px;
     width: 100%;
-    padding-bottom: 120px;
-    background: url("images/middle-cover.jpg") no-repeat;
+    padding-bottom: 0;
+    background: url("images/middle-cover.jpg");
     background-size: 100% auto;
 }
 
@@ -568,14 +568,16 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    display: inline-block;
 }
 
-.the-complete-lineup-artists .artist-single .box-link {
+
+/* .the-complete-lineup-artists .artist-single .box-link {
     position: absolute;
     top: 15px;
     left: 232px;
     cursor: pointer;
-}
+} */
 
 .the-complete-lineup-artists .artist-single .featured-image img {
     max-width: 100%;
@@ -583,9 +585,10 @@ body {
     width: 255px;
 }
 
-.the-complete-lineup-artists .artist-single .featured-image a {
+
+/* .the-complete-lineup-artists .artist-single .featured-image a {
     display: block;
-}
+} */
 
 .the-complete-lineup-artists .artist-single h2 {
     margin-top: 38px;
@@ -884,6 +887,36 @@ body {
     margin-right: 0px;
 }
 
+#supporters {
+    padding: 60px 0;
+}
+
+#supporters .supporters-wrap {
+    border-top: 1px solid #e0e5fa;
+    border-left: 1px solid #e0e5fa;
+    margin-bottom: 30px;
+}
+
+#supporters .supporter-logo {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e0e5fa;
+    border-bottom: 1px solid #e0e5fa;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5);
+    height: 160px;
+}
+
+#supporters .supporter-logo:hover img {
+    transform: scale(1.2);
+}
+
+#supporters img {
+    transition: all 0.4s ease-in-out;
+}
+
 
 /*------------------------------------------------------------
 # site-footer
@@ -964,7 +997,7 @@ body {
 
 .footer-content-wrapper .entry-mail {
     margin-top: 16px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: hsl(0, 0%, 100%);
 }
