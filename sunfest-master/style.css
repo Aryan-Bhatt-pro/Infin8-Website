@@ -314,6 +314,7 @@ body {
 
 .countdown-holder label {
     display: block;
+    text-align: center;
     font-size: 18px;
     font-weight: 600;
     color: hsl(0, 0%, 100%);
