@@ -360,7 +360,7 @@ body {
     min-height: 4640px;
     width: 100%;
     padding-bottom: 0;
-    background: url("images/middle-cover.jpg");
+    background: url("images/middle-cover.jpg") no-repeat;
     background-size: 100% auto;
 }
 
@@ -404,7 +404,7 @@ body {
 ------------------------------------------------------------*/
 
 .lineup-artists {
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 .lineup-artists .featured-image {
@@ -888,7 +888,7 @@ body {
 }
 
 #supporters {
-    padding: 60px 0;
+    padding: 60px 0 20px;
 }
 
 #supporters .supporters-wrap {
@@ -915,6 +915,32 @@ body {
 
 #supporters img {
     transition: all 0.4s ease-in-out;
+}
+
+.team {
+    margin: 10px;
+    color: black;
+}
+
+.team .container-fluid {
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 30px;
+}
+
+.team p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(0, 0%, 48%);
+}
+
+.team h2 {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
 }
 
 
@@ -1106,7 +1132,7 @@ body {
 }
 
 .page-header .entry-title {
-    font-size: 72px;
+    font-size: 100px;
     color: white;
     margin: 0;
     padding: 0;
