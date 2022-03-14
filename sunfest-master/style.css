@@ -358,11 +358,19 @@ body {
   ------------------------------------------------------------*/
 
 .content-section {
+<<<<<<< HEAD
   min-height: 4640px;
   width: 100%;
   padding-bottom: 0;
   background: url("images/middle-cover.jpg");
   background-size: 100% auto;
+=======
+    min-height: 4640px;
+    width: 100%;
+    padding-bottom: 0;
+    background: url("images/middle-cover.jpg") no-repeat;
+    background-size: 100% auto;
+>>>>>>> 08e9653a2f78971e9764d86b618c7ea28af1a52c
 }
 
 .content-section .middle-cover {
@@ -403,7 +411,11 @@ body {
 ------------------------------------------------------------*/
 
 .lineup-artists {
+<<<<<<< HEAD
   padding-top: 80px;
+=======
+    padding-top: 20px;
+>>>>>>> 08e9653a2f78971e9764d86b618c7ea28af1a52c
 }
 
 .lineup-artists .featured-image {
@@ -766,7 +778,11 @@ body {
 ------------------------------------------------------------*/
 
 .home-page-last-news {
+<<<<<<< HEAD
   margin-top: 220px;
+=======
+    margin-top: 150px;
+>>>>>>> 08e9653a2f78971e9764d86b618c7ea28af1a52c
 }
 
 .home-page-last-news .entry-title p {
@@ -879,7 +895,11 @@ body {
 }
 
 #supporters {
+<<<<<<< HEAD
   padding: 60px 0;
+=======
+    padding: 60px 0 20px;
+>>>>>>> 08e9653a2f78971e9764d86b618c7ea28af1a52c
 }
 
 #supporters .supporters-wrap {
@@ -908,6 +928,36 @@ body {
   transition: all 0.4s ease-in-out;
 }
 
+<<<<<<< HEAD
+=======
+.team {
+    margin: 10px;
+    color: black;
+}
+
+.team .container-fluid {
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 30px;
+}
+
+.team p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(0, 0%, 48%);
+}
+
+.team h2 {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+}
+
+
+>>>>>>> 08e9653a2f78971e9764d86b618c7ea28af1a52c
 /*------------------------------------------------------------
 # site-footer
 ------------------------------------------------------------*/
@@ -1091,10 +1141,17 @@ body {
 }
 
 .page-header .entry-title {
+<<<<<<< HEAD
   font-size: 72px;
   color: white;
   margin: 0;
   padding: 0;
+=======
+    font-size: 100px;
+    color: white;
+    margin: 0;
+    padding: 0;
+>>>>>>> 08e9653a2f78971e9764d86b618c7ea28af1a52c
 }
 
 .page-header .breadcrumbs {
