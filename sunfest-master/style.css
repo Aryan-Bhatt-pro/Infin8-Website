@@ -920,12 +920,24 @@ body {
 .team {
     margin: 10px;
     color: black;
+    /* box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1); */
+
 }
 
-.team .container-fluid {
+.img-fluid:hover{
+    transition: 0.4s ease;
+    box-shadow: 2px 2px 25px #888888;
+
+}
+
+.team .container-fluid:hover {
     padding-top: 20px;
     background: rgba(0, 0, 0, 0.02);
     border-radius: 30px;
+    /* box-shadow: 10px 40px 15px 27px rgba(0, 0, 0, 0.1); */
+    
+    
+    
 }
 
 .team p {
@@ -934,6 +946,8 @@ body {
     font-size: 14px;
     font-weight: 600;
     color: hsl(0, 0%, 48%);
+    /* box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1); */
+
 }
 
 .team h2 {
@@ -941,6 +955,8 @@ body {
     font-size: 48px;
     font-weight: 600;
     color: hsl(0, 0%, 0%);
+    box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1);
+
 }
 
 
